@@ -1,0 +1,436 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Sri Varalakshmi Catering | Serving Tradition with Taste & Trust</title>
+  <meta name="description" content="Premium South Indian vegetarian catering in Rajahmundry since the 2000s. Weddings, corporate events, birthdays & bulk orders. Helmed by Chef Kovvur Siva." />
+  <meta name="theme-color" content="#7A102A" />
+  <link rel="icon" type="image/webp" href="images/logo.webp" />
+
+  <!-- Offline-friendly Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;0,600;0,700;1,400;1,600&family=Outfit:wght@300;400;500;600;700&display=swap" rel="stylesheet" />
+
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+<!-- ============ NAVBAR ============ -->
+<header class="nav" id="nav">
+  <div class="nav-inner container">
+    <a href="#top" class="brand" data-testid="nav-logo" aria-label="Sri Varalakshmi Catering — Home">
+      <span class="brand-logo"><img src="images/logo.webp" alt="SVC Logo" width="40" height="40" /></span>
+      <span class="brand-text">
+        <span class="brand-title">Sri Varalakshmi</span>
+        <span class="brand-sub">Catering · Est. 2000s</span>
+      </span>
+    </a>
+
+    <nav class="nav-links" aria-label="Primary">
+      <a href="#about">About</a>
+      <a href="#services">Services</a>
+      <a href="#menu">Menu</a>
+      <a href="#gallery">Gallery</a>
+      <a href="#testimonials">Testimonials</a>
+      <a href="#contact">Contact</a>
+    </nav>
+
+    <div class="nav-cta">
+      <a href="tel:+917396499996" class="nav-phone" data-testid="nav-phone">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6.6 10.8c1.4 2.8 3.8 5.2 6.6 6.6l2.2-2.2c.3-.3.7-.4 1-.2 1.1.4 2.4.6 3.6.6.6 0 1 .4 1 1v3.5c0 .6-.4 1-1 1C10.2 21.1 2.9 13.8 2.9 4.9c0-.6.4-1 1-1h3.5c.6 0 1 .4 1 1 0 1.3.2 2.5.6 3.6.1.4 0 .8-.2 1l-2.2 2.3z"/></svg>
+        +91 73964 99996
+      </a>
+      <a href="#contact" class="btn btn-primary btn-sm" data-testid="nav-book-cta">Book Catering</a>
+      <button id="navToggle" class="nav-toggle" data-testid="nav-mobile-toggle" aria-label="Toggle menu" aria-expanded="false">
+        <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M4 7h16M4 12h16M4 17h16" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" fill="none"/></svg>
+      </button>
+    </div>
+  </div>
+  <div id="navMobile" class="nav-mobile" hidden>
+    <a href="#about">About</a>
+    <a href="#services">Services</a>
+    <a href="#menu">Menu</a>
+    <a href="#gallery">Gallery</a>
+    <a href="#testimonials">Testimonials</a>
+    <a href="#contact">Contact</a>
+    <a href="#contact" class="btn btn-primary">Book Catering</a>
+  </div>
+</header>
+
+<main>
+
+  <!-- ============ HERO ============ -->
+  <section id="top" class="hero" data-testid="hero-section">
+    <picture class="hero-bg">
+      <img src="images/hero.webp" alt="South Indian feast on banana leaf" loading="eager" />
+    </picture>
+    <div class="hero-overlay"></div>
+    <div class="hero-pattern svc-pattern"></div>
+
+    <div class="hero-top container">
+      <span class="divider">Premium Vegetarian Catering</span>
+    </div>
+
+    <div class="container hero-content">
+      <p class="hero-est">Established in the 2000s · Rajahmundry, Andhra Pradesh</p>
+      <h1 class="hero-title">Serving <em class="gold">Tradition</em><br/>with Taste &amp; Trust</h1>
+      <p class="hero-sub">Authentic South Indian vegetarian feasts crafted on banana leaf — from Rajahmundry&rsquo;s finest kitchens to your most important celebrations.</p>
+      <div class="hero-ctas">
+        <a href="#contact" class="btn btn-primary" data-testid="hero-book-btn">Book Catering</a>
+        <a href="#menu" class="btn btn-secondary" data-testid="hero-menu-btn">View Menu</a>
+      </div>
+    </div>
+
+    <a href="#about" class="hero-cue" aria-label="Scroll">
+      <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M6 9l6 6 6-6" stroke="currentColor" stroke-width="2" fill="none" stroke-linecap="round"/></svg>
+    </a>
+  </section>
+
+  <!-- ============ MARQUEE ============ -->
+  <div class="marquee" aria-hidden="true">
+    <div class="marquee-track">
+      <span>Banana Leaf Meals</span><span>✦</span>
+      <span>Pesarattu</span><span>✦</span>
+      <span>Qubani Ka Meetha</span><span>✦</span>
+      <span>Mirchi Bajji</span><span>✦</span>
+      <span>Bagara Rice</span><span>✦</span>
+      <span>Gongura Pappu</span><span>✦</span>
+      <span>Bobbatlu</span><span>✦</span>
+      <span>Semiya Payasam</span><span>✦</span>
+      <span>Pulihora</span><span>✦</span>
+      <span>Masala Dosa</span><span>✦</span>
+      <!-- duplicate for seamless loop -->
+      <span>Banana Leaf Meals</span><span>✦</span>
+      <span>Pesarattu</span><span>✦</span>
+      <span>Qubani Ka Meetha</span><span>✦</span>
+      <span>Mirchi Bajji</span><span>✦</span>
+      <span>Bagara Rice</span><span>✦</span>
+      <span>Gongura Pappu</span><span>✦</span>
+      <span>Bobbatlu</span><span>✦</span>
+      <span>Semiya Payasam</span><span>✦</span>
+      <span>Pulihora</span><span>✦</span>
+      <span>Masala Dosa</span><span>✦</span>
+    </div>
+  </div>
+
+  <!-- ============ ABOUT ============ -->
+  <section id="about" class="section" data-testid="about-section">
+    <div class="container grid-12 gap-xl items-center">
+      <div class="col-6 about-media reveal">
+        <div class="about-frame">
+          <img src="images/chef.webp" alt="Chef Kovvur Siva" loading="lazy" />
+        </div>
+        <div class="about-stat">
+          <span class="eyebrow">Our Legacy</span>
+          <h3>2,400+ Events</h3>
+          <p>Weddings, corporates &amp; gatherings served across Godavari districts.</p>
+        </div>
+      </div>
+
+      <div class="col-6 reveal">
+        <span class="divider">Our Story</span>
+        <h2 class="h2">A family kitchen,<br/><em>two decades</em> of feasts.</h2>
+        <div class="prose">
+          <p>Sri Varalakshmi Catering was born in Rajahmundry in the early 2000s, when our founder began cooking banana-leaf meals for neighbourhood weddings. What began as a family pledge — <em>only pure vegetarian, only fresh</em> — grew into Coastal Andhra&rsquo;s most-loved catering house.</p>
+          <p>Every dish still passes through the hands of our head chef. Spices are pounded in-house. Ghee is home-rendered. Rice is sourced from Godavari delta paddy. Nothing reaches your guests that we wouldn&rsquo;t proudly serve our own family.</p>
+        </div>
+
+        <div class="people-grid">
+          <div class="card person gold-corner" data-testid="about-chef-card">
+            <span class="eyebrow">Head Chef</span>
+            <h4>Chef Kovvur Siva</h4>
+            <p>25+ years mastering Andhra &amp; Tamil vegetarian traditions.</p>
+          </div>
+          <div class="card person gold-corner" data-testid="about-owner-card">
+            <span class="eyebrow">Proprietor</span>
+            <h4>Smt. Varalakshmi Garu</h4>
+            <p>Custodian of recipes, hospitality &amp; the SVC hygiene standard.</p>
+          </div>
+        </div>
+
+        <div class="badges">
+          <span class="badge">★ 25+ Years Legacy</span>
+          <span class="badge">🌿 100% Pure Veg</span>
+          <span class="badge">🔥 Wood-Fire Traditions</span>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ SERVICES ============ -->
+  <section id="services" class="section bg-white pattern" data-testid="services-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="divider">What We Do</span>
+        <h2 class="h2">Occasions we <em>cater</em> to.</h2>
+        <p class="lead">Four specialised services, one uncompromising standard — fresh, hygienic and on time, whether it&rsquo;s 40 guests or 4,000.</p>
+      </div>
+
+      <div class="grid-2" id="servicesGrid">
+        <!-- cards injected by script.js -->
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ MENU ============ -->
+  <section id="menu" class="section" data-testid="menu-section">
+    <div class="container">
+      <div class="menu-head">
+        <div class="section-head no-mb">
+          <span class="divider">Menu Showcase</span>
+          <h2 class="h2">A feast in <em>four chapters.</em></h2>
+          <p class="lead">From morning tiffins to evening sweets — every item is customisable by the plate, by the thali, or by the banana leaf.</p>
+        </div>
+        <div class="menu-tabs" id="menuTabs" role="tablist">
+          <button class="menu-tab is-active" data-cat="all" data-testid="menu-tab-all">All</button>
+          <button class="menu-tab" data-cat="breakfast" data-testid="menu-tab-breakfast">Breakfast</button>
+          <button class="menu-tab" data-cat="meals" data-testid="menu-tab-meals">Meals</button>
+          <button class="menu-tab" data-cat="sweets" data-testid="menu-tab-sweets">Sweets</button>
+          <button class="menu-tab" data-cat="snacks" data-testid="menu-tab-snacks">Snacks</button>
+        </div>
+      </div>
+
+      <div class="menu-grid" id="menuGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ WHY CHOOSE US ============ -->
+  <section id="why" class="section why-section" data-testid="why-section">
+    <div class="why-bg-a"></div>
+    <div class="why-bg-b"></div>
+    <div class="container grid-12 gap-xl">
+      <div class="col-5 reveal">
+        <span class="divider divider-gold">Why SVC</span>
+        <h2 class="h2 h2-light">Four <em class="gold">promises</em><br/>in every plate we serve.</h2>
+        <p class="why-lead">Our guests don&rsquo;t just remember the food — they remember how smoothly the day ran. Here&rsquo;s what goes into that experience.</p>
+      </div>
+      <div class="col-7 why-grid">
+        <div class="why-card reveal" data-testid="why-farm-fresh">
+          <span class="why-num">01</span>
+          <div class="why-icon">🌱</div>
+          <h4>Farm-fresh ingredients</h4>
+          <p>Vegetables sourced daily from Godavari delta markets. Milk, ghee and paneer made in-house.</p>
+        </div>
+        <div class="why-card reveal" data-testid="why-chefs">
+          <span class="why-num">02</span>
+          <div class="why-icon">👨‍🍳</div>
+          <h4>Experienced head chefs</h4>
+          <p>Led by Chef Kovvur Siva with a 25-strong team trained in authentic Andhra &amp; Tamil traditions.</p>
+        </div>
+        <div class="why-card reveal" data-testid="why-timely">
+          <span class="why-num">03</span>
+          <div class="why-icon">⏱</div>
+          <h4>Timely, disciplined service</h4>
+          <p>Punctual plating, unbroken refills, uniformed staff — your muhurtham never waits on us.</p>
+        </div>
+        <div class="why-card reveal" data-testid="why-pricing">
+          <span class="why-num">04</span>
+          <div class="why-icon">₹</div>
+          <h4>Premium quality, honest pricing</h4>
+          <p>Transparent per-plate rates with no hidden charges. Premium taste without premium surprises.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ GALLERY ============ -->
+  <section id="gallery" class="section" data-testid="gallery-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="divider">Gallery</span>
+        <h2 class="h2">Moments, <em>plated.</em></h2>
+        <p class="lead">A glimpse of recent feasts — from grand Godavari weddings to intimate corporate gatherings.</p>
+      </div>
+
+      <div class="gallery-grid">
+        <figure class="gal-item span-2 row-2"><img src="images/gallery-1.webp" alt="Traditional banana leaf meals" loading="lazy"/><figcaption>Traditional Banana Leaf Meals</figcaption></figure>
+        <figure class="gal-item"><img src="images/gallery-2.webp" alt="South Indian breakfast" loading="lazy"/><figcaption>South Indian Breakfast</figcaption></figure>
+        <figure class="gal-item"><img src="images/gallery-3.webp" alt="Premium sweets counter" loading="lazy"/><figcaption>Premium Sweets Counter</figcaption></figure>
+        <figure class="gal-item span-2"><img src="images/gallery-4.webp" alt="Fine dining setup" loading="lazy"/><figcaption>Fine Dining Setup</figcaption></figure>
+        <figure class="gal-item"><img src="images/gallery-5.webp" alt="Snacks station" loading="lazy"/><figcaption>Snacks Station</figcaption></figure>
+        <figure class="gal-item"><img src="images/gallery-6.webp" alt="Wedding table arrangement" loading="lazy"/><figcaption>Wedding Table Arrangements</figcaption></figure>
+        <figure class="gal-item span-2"><img src="images/gallery-7.webp" alt="Coastal Andhra variety" loading="lazy"/><figcaption>Coastal Andhra Variety</figcaption></figure>
+      </div>
+    </div>
+  </section>
+
+  <!-- ============ TESTIMONIALS ============ -->
+  <section id="testimonials" class="section bg-white pattern" data-testid="testimonials-section">
+    <div class="container">
+      <div class="section-head between">
+        <div>
+          <span class="divider">Kind Words</span>
+          <h2 class="h2">Testimonials from <em>our hosts.</em></h2>
+        </div>
+        <p class="lead max-md">Two decades of repeat families, corporate clients &amp; temple committees — here&rsquo;s what they say about serving with SVC.</p>
+      </div>
+
+      <div class="testi-grid" id="testiGrid"></div>
+    </div>
+  </section>
+
+  <!-- ============ CONTACT ============ -->
+  <section id="contact" class="section" data-testid="contact-section">
+    <div class="container">
+      <div class="section-head">
+        <span class="divider">Get in Touch</span>
+        <h2 class="h2">Let&rsquo;s plan your <em>feast.</em></h2>
+        <p class="lead">Share a few details and we&rsquo;ll continue the conversation on WhatsApp — with tailored menu options and a transparent per-plate quote.</p>
+      </div>
+
+      <div class="contact-grid">
+        <form id="bookingForm" class="card contact-form" data-testid="booking-form" novalidate>
+          <div class="form-grid">
+            <label class="field">
+              <span>Your Name *</span>
+              <input name="name" type="text" placeholder="e.g. Ravi Kumar" required data-testid="form-name"/>
+            </label>
+            <label class="field">
+              <span>Phone *</span>
+              <input name="phone" type="tel" placeholder="+91 ..." required data-testid="form-phone"/>
+            </label>
+            <label class="field">
+              <span>Event Type</span>
+              <select name="event" data-testid="form-event">
+                <option>Wedding</option>
+                <option>Birthday / Anniversary</option>
+                <option>Corporate Event</option>
+                <option>Housewarming</option>
+                <option>Outdoor / Bulk Order</option>
+                <option>Other</option>
+              </select>
+            </label>
+            <label class="field">
+              <span>Guest Count</span>
+              <input name="guests" type="text" placeholder="e.g. 250" data-testid="form-guests"/>
+            </label>
+            <label class="field">
+              <span>Event Date</span>
+              <input name="date" type="date" data-testid="form-date"/>
+            </label>
+            <label class="field">
+              <span>Location</span>
+              <input name="location" type="text" placeholder="City / Venue" data-testid="form-location"/>
+            </label>
+          </div>
+          <label class="field mt">
+            <span>Tell us more</span>
+            <textarea name="message" rows="4" placeholder="Menu preferences, dietary notes, live counters, traditions..." data-testid="form-message"></textarea>
+          </label>
+
+          <div class="form-foot">
+            <p class="form-note">By submitting you&rsquo;ll be redirected to WhatsApp with your details pre-filled. No spam, just prompt replies.</p>
+            <button type="submit" class="btn btn-primary" data-testid="form-submit">Send via WhatsApp
+              <svg viewBox="0 0 24 24" aria-hidden="true" class="btn-icon"><path d="M22 2L11 13M22 2l-7 20-4-9-9-4 20-7z" stroke="currentColor" stroke-width="1.8" fill="none" stroke-linecap="round" stroke-linejoin="round"/></svg>
+            </button>
+          </div>
+        </form>
+
+        <aside class="contact-side">
+          <a href="tel:+917396499996" class="info-card" data-testid="contact-phone">
+            <span class="info-icon">📞</span>
+            <span>
+              <b>Call Us</b>
+              <em>+91 73964 99996</em>
+            </span>
+          </a>
+          <a href="https://wa.me/917396499996" target="_blank" rel="noopener" class="info-card" data-testid="contact-whatsapp">
+            <span class="info-icon">💬</span>
+            <span>
+              <b>WhatsApp</b>
+              <em>Chat instantly</em>
+            </span>
+          </a>
+          <div class="info-card" data-testid="contact-location">
+            <span class="info-icon">📍</span>
+            <span>
+              <b>Location</b>
+              <em>Rajahmundry, Andhra Pradesh</em>
+            </span>
+          </div>
+          <div class="info-card" data-testid="contact-serving">
+            <span class="info-icon">✉</span>
+            <span>
+              <b>Serving</b>
+              <em>Godavari delta, Visakhapatnam &amp; beyond</em>
+            </span>
+          </div>
+
+          <div class="map-embed" data-testid="contact-map">
+            <iframe
+              title="SVC Location — Rajahmundry"
+              src="https://www.google.com/maps?q=Rajahmundry,Andhra+Pradesh,India&output=embed"
+              loading="lazy"
+              referrerpolicy="no-referrer-when-downgrade"></iframe>
+          </div>
+        </aside>
+      </div>
+    </div>
+  </section>
+
+</main>
+
+<!-- ============ FOOTER ============ -->
+<footer class="footer" data-testid="site-footer">
+  <div class="container footer-grid">
+    <div class="footer-brand">
+      <div class="foot-logo">
+        <img src="images/logo.webp" alt="SVC Logo" width="48" height="48"/>
+        <div>
+          <div class="foot-name">Sri Varalakshmi Catering</div>
+          <div class="foot-est">Established in the 2000s</div>
+        </div>
+      </div>
+      <p class="foot-desc">Authentic South Indian vegetarian catering from the banks of the Godavari — trusted for weddings, corporate events and celebrations of every scale.</p>
+      <div class="social">
+        <a href="#" aria-label="Instagram">IG</a>
+        <a href="#" aria-label="Facebook">FB</a>
+        <a href="https://wa.me/917396499996" target="_blank" rel="noopener" aria-label="WhatsApp">WA</a>
+      </div>
+    </div>
+
+    <div class="foot-col">
+      <h5>Explore</h5>
+      <ul>
+        <li><a href="#about">About</a></li>
+        <li><a href="#services">Services</a></li>
+        <li><a href="#menu">Menu</a></li>
+        <li><a href="#gallery">Gallery</a></li>
+        <li><a href="#testimonials">Testimonials</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </div>
+
+    <div class="foot-col">
+      <h5>Reach Us</h5>
+      <ul>
+        <li><a href="tel:+917396499996">📞 +91 73964 99996</a></li>
+        <li><a href="https://wa.me/917396499996" target="_blank" rel="noopener">💬 WhatsApp — chat instantly</a></li>
+        <li>📍 Rajahmundry, Andhra Pradesh<br/>Serving Godavari delta &amp; beyond</li>
+      </ul>
+    </div>
+  </div>
+
+  <div class="container foot-bottom">
+    <p>© <span id="year"></span> Sri Varalakshmi Catering. All rights reserved.</p>
+    <p class="foot-credits">Head Chef · Chef Kovvur Siva  ✦  Proprietor · Smt. Varalakshmi Garu</p>
+  </div>
+</footer>
+
+<!-- Floating WhatsApp -->
+<a id="waFloat" class="wa-float" href="https://wa.me/917396499996" target="_blank" rel="noopener" data-testid="whatsapp-float" aria-label="Chat on WhatsApp">
+  <span class="wa-glow"></span>
+  <span class="wa-btn">
+    <svg viewBox="0 0 24 24" aria-hidden="true"><path d="M20.5 3.5A11 11 0 0 0 3 19.4L2 22l2.7-1A11 11 0 1 0 20.5 3.5zM12 20.2a8.2 8.2 0 0 1-4.2-1.2l-.3-.2-2.5.8.8-2.4-.2-.3A8.2 8.2 0 1 1 12 20.2zm4.5-6.2c-.2-.1-1.4-.7-1.6-.8s-.4-.1-.6.1-.7.8-.9 1-.3.2-.6.1a6.7 6.7 0 0 1-2-1.2 7.3 7.3 0 0 1-1.4-1.7c-.1-.2 0-.4.1-.5l.4-.5c.1-.1.2-.2.3-.4s.1-.3 0-.4-.6-1.5-.9-2.1-.5-.5-.7-.5h-.5a1 1 0 0 0-.8.4 3.1 3.1 0 0 0-1 2.3 5.3 5.3 0 0 0 1.1 2.8 12.3 12.3 0 0 0 4.7 4.1 16 16 0 0 0 1.6.6 3.7 3.7 0 0 0 1.7.1 2.7 2.7 0 0 0 1.8-1.3 2.3 2.3 0 0 0 .2-1.3c-.1-.2-.3-.2-.5-.4z"/></svg>
+    <span class="wa-text">Chat on WhatsApp</span>
+  </span>
+</a>
+
+<!-- Toast -->
+<div id="toast" class="toast" role="status" aria-live="polite"></div>
+
+<script src="script.js" defer></script>
+</body>
+</html>
